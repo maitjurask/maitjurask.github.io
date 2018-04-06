@@ -11,7 +11,16 @@
 	padding: 7px 7px;
 }
 
+.contact-info {
+	list-style-type: none;
+	font-family: 'Poppins', sans-serif;
+	color: #9b805a;
+	margin-right: 10px;
+}
 
+.contact-list {
+	margin-top: 20px;
+}
 
 #navbar {
 	width: 1000px;
@@ -45,6 +54,12 @@
 .main-header {
 	display: flex;
 	justify-content: center;
+}
+
+.logo-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 
