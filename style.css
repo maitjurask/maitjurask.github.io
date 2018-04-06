@@ -3,6 +3,7 @@
 	margin: 0 auto;
 }
 
+
 .content {
 	font-family: 'Poppins', sans-serif;
 	color: #9B805A;
@@ -11,9 +12,20 @@
 }
 
 #navbar {
+	width: 1000px;
 	background-color: #2A1D15;
 	display: flex;
 	justify-content: flex-start;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
 }
 
 .center {
