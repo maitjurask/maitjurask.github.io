@@ -16,6 +16,7 @@
 	background-color: #2A1D15;
 	display: flex;
 	justify-content: flex-start;
+	background-image: url("navbarwshadow.png");
 }
 
 .sticky {
@@ -37,7 +38,6 @@
 .main-header {
 	display: flex;
 	justify-content: center;
-	background-image: url("testbanner.png");
 }
 
 
