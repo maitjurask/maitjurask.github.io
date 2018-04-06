@@ -16,7 +16,7 @@
 	background-color: #2A1D15;
 	display: flex;
 	justify-content: flex-start;
-	background-image: url("styles/navbarwshadow.png");
+	background-image: url("pictures/navbarwshadow.png");
 }
 
 .sticky {
