@@ -1,5 +1,5 @@
 #wrapper {
-	width: 650px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -12,6 +12,8 @@
 
 #navbar {
 	background-color: #2A1D15;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .center {
@@ -32,7 +34,6 @@
 }
 
 .border-right {
-	border-right: 1px solid white;
 }
 
 body {
