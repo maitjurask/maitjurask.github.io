@@ -8,11 +8,16 @@
 	margin: 3px 3px;
 }
 
+
 .content {
 	font-family: 'Poppins', sans-serif;
 	color: #A58961;
 	background-color: #35241A;
 	padding: 7px 7px;
+}
+
+#google-map {
+	padding-top: 15px;
 }
 
 .contact-info {
