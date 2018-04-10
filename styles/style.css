@@ -81,7 +81,12 @@
 }
 
 .price-table {
-	margin-top: 7px;
+	padding: 7px 0px;
+	text-align: left;
+}
+
+th, td {
+	padding: 8px 0px;
 }
 
 
