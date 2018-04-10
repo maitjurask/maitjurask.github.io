@@ -80,8 +80,11 @@
 	margin: 5px 5px;
 }
 
-.border-right {
+.price-table {
+	margin-top: 7px;
 }
+
+
 
 body {
 	background-color: #1E1713;
