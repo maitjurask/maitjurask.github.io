@@ -84,6 +84,8 @@
 	padding: 7px 0px;
 	text-align: left;
 	table-layout: auto;
+	padding-right: 10px;
+	padding-left: 2px;
 }
 
 table tr td:nth-child(2) {
