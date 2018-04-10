@@ -83,7 +83,13 @@
 .price-table {
 	padding: 7px 0px;
 	text-align: left;
+	table-layout: auto;
 }
+
+table tr td:nth-child(2) {
+	float: right;
+}
+
 
 th, td {
 	padding: 8px 0px;
