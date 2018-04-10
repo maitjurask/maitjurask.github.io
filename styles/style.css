@@ -83,20 +83,29 @@
 .price-table {
 	padding: 7px 0px;
 	text-align: left;
-	table-layout: auto;
+	table-layout: fixed;
 	padding-right: 10px;
 	padding-left: 2px;
 }
+
+#table-heading {
+	background-color: #261A13;
+}
+
 
 table tr td:nth-child(2) {
 	float: right;
 }
 
 
-th, td {
-	padding: 8px 0px;
+tr:nth-child(even) {
+	background-color: #3F2B1F;
 }
 
+th, td {
+	padding: 8px 0px;
+	padding-left: 4px;
+}
 
 
 body {
