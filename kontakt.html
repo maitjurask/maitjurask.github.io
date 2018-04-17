@@ -4,11 +4,12 @@
 	<title>Svarna-Hanka</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<meta charset="utf-8">
 </head>
 <body>
 	<div id="wrapper">
 		<header class="logo-header">
-			<img src="pictures/logov2ike2.png"></img>
+			<img src="pictures/logovariant3.png"></img>
 			<div>
 				<ul class="contact-list">
 					<li class="contact-info"><img src="pictures/telo.png" class="contact-info"></img>774 415 361</li>
@@ -29,14 +30,22 @@
 		</div>
 		<div id="content-container">
 			<div class="content">
-				<h3>TURISTICKÉ MOŽNOSTI</h3>
-				<p class="content-p">Horská chta Švarná Hanka v Beskydech s možností cykloturistiky, letní i zimní pěší turistiky a sjezdového (vlek u chaty) i běžeckého lyžování. Pro náročnější lyžaře sjezdovka se dvěma vleky (délka 800m) ve vzdálenosti 2km (dojezd autem možný).
-				</p>
-				<img src="pictures/map.png"></img>
+				<h3>KONTAKT</h3>
+				<form action="php/mail.php" method="POST">
+					<label for="fullName">Your name:</label>
+					<br><input type="text" id="fName" name="fullName" placeholder="Write your name..." required><br>
+					<label for="eMail">Your email:</label>
+					<br><input type="text" id="e-mail" name="email" placeholder="Write your email..." required><br>
+					<label for="pNumber">Your phone number:</label>
+					<br><input type="text" id="phone-number" name="phone" placeholder="Write your phone number..." required><br>
+					<label for="sMessage">Your message:</label>
+					<br><textarea id="message" name="subject" placeholder="Write something..." required></textarea><br>
+					<input type="submit" id="submit-button" value="Submit">
+				</form>
+
 			</div>
 		</div>
 	</div>
-
 	<script type="text/javascript" src="js/navbar.js"></script>
 </body>
 </html>

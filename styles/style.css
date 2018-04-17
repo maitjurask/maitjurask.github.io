@@ -105,15 +105,12 @@
   width: 150px;
   height: 91.38px;
   max-width: 100%;
-  transition: 300ms all;
 }
-.my-gallery img:hover {
-	transform: scale(1.1);
-}
+
 .my-gallery figure {
   display: block;
   float:left;
-  margin: 0 5px 5px 0;
+  margin: 5px 7px;
   width: 150px;
 }
 .my-gallery figcaption {
@@ -123,6 +120,37 @@
 #table-heading {
 	background-color: #261A13;
 }
+
+#message {
+	height: 200px;
+	width: 50%;
+	font-family: 'Poppins', sans-serif;
+}
+
+#submit-button {
+	width: 100px;
+	color: black;
+	background-color: #a56a2e;
+	border: 1px solid #A56A2E;
+	transition: 300ms all;
+}
+
+#submit-button:hover {
+	background-color: #cc8239;
+	border-color: #cc8239;
+}
+
+
+input, textarea  {
+	font-family: 'Poppins', sans-serif;
+	padding: 5px 5px;
+	width: 50%;
+	margin: 7px 0px;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+
 
 
 table tr td:nth-child(2) {
