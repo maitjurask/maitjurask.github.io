@@ -76,9 +76,10 @@
 	justify-content: space-between;
 }
 
-#invisible-item {
-	margin-left: 150px;
+#logo {
+	margin-left: 15px;
 }
+
 
 #right-item {
 	display: flex;
