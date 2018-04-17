@@ -32,6 +32,7 @@
 
 .contact-list {
 	margin-top: 20px;
+	margin-bottom: 5px;
 
 }
 
@@ -75,6 +76,14 @@
 	justify-content: space-between;
 }
 
+#invisible-item {
+	margin-left: 150px;
+}
+
+#right-item {
+	display: flex;
+	align-self: flex-end;
+}
 
 .heading-margins {
 	margin: 5px 5px;
