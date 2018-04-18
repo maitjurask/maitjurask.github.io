@@ -74,6 +74,9 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	background: url(../pictures/background2.png);
+	position: relative;
+	z-index: 110;
 }
 
 #logo {
@@ -83,7 +86,7 @@
 
 #right-item {
 	display: flex;
-	align-self: flex-end;
+	align-self: center;
 }
 
 .heading-margins {
