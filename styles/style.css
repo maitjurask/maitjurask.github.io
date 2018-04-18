@@ -51,6 +51,7 @@
 .sticky {
 	position: fixed;
 	top: 0;
+	z-index: 500;
 	width: 100%;
 	background-color: #563B2B;
 }
@@ -76,7 +77,7 @@
 	justify-content: space-between;
 	background: url(../pictures/background2.png);
 	position: relative;
-	z-index: 110;
+	z-index: -1;
 }
 
 #logo {
