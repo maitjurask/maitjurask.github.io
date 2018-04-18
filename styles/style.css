@@ -4,16 +4,27 @@
 }
 
 
-.content-p {
-	margin: 3px 3px;
-}
-
 
 .content {
 	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
 	color: #A58961;
 	background-color: #35241A;
 	padding: 7px 7px;
+}
+
+.content h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.17em;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	color: #DDC89D;
+}
+
+.content p {
+	margin: 3px 3px;
 }
 
 #google-map {
@@ -44,9 +55,29 @@
 	transition: 300ms all;
 }
 
+#navbar a {
+	margin: 2px 0px;
+	padding: 5px 7px;
+	text-decoration: none;
+	color: #DDC89D;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30;
+	transition: 300ms all;
+}
+
+#navbar a:hover {
+	background-color: #A56A2E;
+}
+
+
 .navbar {
 	background-color: #35241A;
 }
+
+.arrow-button {
+	background-color: white;
+}
+
 
 .sticky {
 	position: fixed;
@@ -76,6 +107,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	background: url(../pictures/background2.png);
+	background-repeat: no-repeat;
 	position: relative;
 	z-index: -1;
 }
@@ -188,29 +220,7 @@ body {
 	margin: 0;
 }
 
-h3 {
-	margin-left: 5px;
-	margin-top: 7px;
-	margin-bottom: 7px;
-	color: #DDC89D;
-}
 
 img {
 	z-index: -1;
 }
-
-
-#navbar a {
-	margin: 2px 0px;
-	padding: 5px 7px;
-	text-decoration: none;
-	color: #DDC89D;
-	font-family: 'Poppins', sans-serif;
-	font-size: 30;
-	transition: 300ms all;
-}
-
-#navbar a:hover {
-	background-color: #A56A2E;
-}
-

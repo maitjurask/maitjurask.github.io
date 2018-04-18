@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Svarna-Hanka</title>
+	<link rel="stylesheet" type="text/css" href="styles/w3.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<meta charset="utf-8">
@@ -25,37 +26,41 @@
 			<a href="kontakt.html">KONTAKT</a>
 			<a href="novinky.html">NOVINKY</a>
 		</div>
-		<div class="main-header">
-			<img src="pictures/pilt3.png"></img>
+		<div class="main-header w3-display-container">
+			<img class="imageSlider" src="pictures/sliderpics/slide1.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide2.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide3.png"></img>
+			<button class="arrow-button w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="arrow-button w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 		</div>
 		<div id="content-container">
 			<div class="content">
 				<h3>O nás</h3>
-				<p class="content-p">Švarnou Hanku rozvíjí a provozuje parta nadšenců, i proto je naplněna pohodovou rodinnou atmosférou. Nabízíme ubytovací zázemí až pro skupinu 50 hostů domácí kuchyni, občerstvení a nocleh pro všechny kolemjdoucí, ať už jste aktivní turisté, rodiče s dětmi a pejskem, nebo jen ztracená duše hledající úkryt.
+				<p>Švarnou Hanku rozvíjí a provozuje parta nadšenců, i proto je naplněna pohodovou rodinnou atmosférou. Nabízíme ubytovací zázemí až pro skupinu 50 hostů domácí kuchyni, občerstvení a nocleh pro všechny kolemjdoucí, ať už jste aktivní turisté, rodiče s dětmi a pejskem, nebo jen ztracená duše hledající úkryt.
 				</p>
-				<p class="content-p">Švarná Hanka se nachází v nádherném prostředí klimaticky ozdravných Moravskoslezských Beskyd v chráněné krajinné oblasti na turistické trase po nejkrásnější hřebenovce v Beskydech mezi Gruněm a Bílým Křížem. Zde nás najdete na mapě (odkaz na mapu) a zde prozkoumejte turistické možnosti v okolí. Jedete autobusem? Vystupte na zastávce Staré Hamry – most nebo Staré Hamry - Stýskalonka.
+				<p>Švarná Hanka se nachází v nádherném prostředí klimaticky ozdravných Moravskoslezských Beskyd v chráněné krajinné oblasti na turistické trase po nejkrásnější hřebenovce v Beskydech mezi Gruněm a Bílým Křížem. Zde nás najdete na mapě (odkaz na mapu) a zde prozkoumejte turistické možnosti v okolí. Jedete autobusem? Vystupte na zastávce Staré Hamry – most nebo Staré Hamry - Stýskalonka.
 				</p>
-				<p class="content-p">
+				<p>
 					V červenci a srpnu máme otevřeno celý týden, zbytek roku od čtvrtka do neděle.
 				</p>
-				<p class="content-p">
+				<p>
 					Wi-Fi, parkování, voda pro pejsky, úsměv a dobré rady ZDARMA.
 				</p>
 				<h3>Nabídka</h3>
-				<p class="content-p">
+				<p>
 					Lůžkovou kapacitu 45 lůžek je možno rozšířit pomocí přistýlek. Pro školy (lyžařský výcvik, škola v přírodě, výlet), svatby, rodinné oslavy a větší skupiny hostů nabízíme individuální smluvní ceny i podmínky pobytu. Stačí využít náš e-mail, telefon nebo kontaktní formulář.
 				</p>
 				<h3>Zajímavosti o Švarné Hance</h3>
-				<p class="content-p">
+				<p>
 					Švarná Hanka je nejstarší horskou chatou v Beskydech, jejíž zrod sahá až do poloviny 19. století. Do historie se Švarná Hanka zapsala především tím, že v době 1. světové války poskytovala úkryt beskydskému bardovi a básníku Petru Bezruči, jehož židle vás společně s dalším starožitným nábytkem a ohněm z kachlových kamen zavede do starých časů.
 				</p>
-				<p class="content-p">
+				<p>
 					Poloha chaty poskytuje ideální podmínky pro noční sledování oblohy, je totiž netemnějším místem v České republice. Švarná Hanka pravidelně organizuje pozorování noční oblohy s odborným výkladem našeho hvězdáře, aktuální informace o dění a akcích sledujte v našich aktualitách (odkaz na aktuality), nebo na našem Facebooku.
 				</p>
 			</div>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="js/imageslider.js"></script>
 	<script type="text/javascript" src="js/navbar.js"></script>
 </body>
 </html>
