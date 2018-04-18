@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Svarna-Hanka</title>
+	<link rel="stylesheet" type="text/css" href="styles/w3.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<meta charset="utf-8">
@@ -9,7 +10,7 @@
 <body>
 	<div id="wrapper">
 		<header class="logo-header">
-			<img src="pictures/logovariant3.png"></img>
+			<img id="logo" src="pictures/svarnahanka-big&light.png"></img>
 			<div>
 				<ul class="contact-list">
 					<li class="contact-info"><img src="pictures/telo.png" class="contact-info"></img>774 415 361</li>
@@ -25,8 +26,12 @@
 			<a href="kontakt.html">KONTAKT</a>
 			<a href="novinky.html">NOVINKY</a>
 		</div>
-		<div class="main-header">
-			<img src="pictures/pilt3.png"></img>
+		<div id="imageSliderContainer" class="main-header w3-display-container">
+			<img class="imageSlider" src="pictures/sliderpics/slide1.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide2.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide3.png"></img>
+			<button id="arrowButtonOne" class="arrow-button w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button id="arrowButtonTwo" class="arrow-button w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 		</div>
 		<div id="content-container">
 			<div class="content">
@@ -80,7 +85,7 @@
 			</div>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="js/imageslider.js"></script>
 	<script type="text/javascript" src="js/navbar.js"></script>
 </body>
 </html>

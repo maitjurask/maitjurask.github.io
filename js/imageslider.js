@@ -16,3 +16,26 @@ function showDivs(n) {
     }
     x[slideIndex - 1].style.display = "block";
 }
+
+
+const imageSlider = document.getElementById("imageSliderContainer");
+
+const arrowButtons = [
+    document.getElementById("arrowButtonOne"),
+    document.getElementById("arrowButtonTwo")
+];
+
+const makeVisible = (htmlElement) => {
+    for (let i = 0; i < 2; i++) {
+        htmlElement[i].classList.add("visible");
+    }
+}
+
+const makeInvisible = (htmlElement) => {
+    for (let i = 0; i < 2; i++) {
+        htmlElement[i].classList.remove("visible");
+    }
+}
+
+imageSlider.onmouseover = function () { makeVisible(arrowButtons) }
+imageSlider.onmouseout = function () { makeInvisible(arrowButtons) }

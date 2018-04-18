@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Svarna-Hanka</title>
+	<link rel="stylesheet" type="text/css" href="styles/w3.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<meta charset="utf-8">
@@ -9,7 +10,7 @@
 <body>
 	<div id="wrapper">
 		<header class="logo-header">
-			<img src="pictures/logovariant3.png"></img>
+			<img id="logo" src="pictures/svarnahanka-big&light.png"></img>
 			<div>
 				<ul class="contact-list">
 					<li class="contact-info"><img src="pictures/telo.png" class="contact-info"></img>774 415 361</li>
@@ -25,18 +26,22 @@
 			<a href="kontakt.html">KONTAKT</a>
 			<a href="novinky.html">NOVINKY</a>
 		</div>
-		<div class="main-header">
-			<img src="pictures/pilt3.png"></img>
+		<div id="imageSliderContainer" class="main-header w3-display-container">
+			<img class="imageSlider" src="pictures/sliderpics/slide1.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide2.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide3.png"></img>
+			<button id="arrowButtonOne" class="arrow-button w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button id="arrowButtonTwo" class="arrow-button w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 		</div>
 		<div id="content-container">
 			<div class="content">
 				<h3>Turistické možnosti</h3>
-				<p class="content-p">Horská chta Švarná Hanka v Beskydech s možností cykloturistiky, letní i zimní pěší turistiky a sjezdového (vlek u chaty) i běžeckého lyžování. Pro náročnější lyžaře sjezdovka se dvěma vleky (délka 800m) ve vzdálenosti 2km (dojezd autem možný).
+				<p>Horská chta Švarná Hanka v Beskydech s možností cykloturistiky, letní i zimní pěší turistiky a sjezdového (vlek u chaty) i běžeckého lyžování. Pro náročnější lyžaře sjezdovka se dvěma vleky (délka 800m) ve vzdálenosti 2km (dojezd autem možný).
 				</p>
-				<p class="content-p">Na hřebeni Gruně, pod Kozlenou ‘’ U Švarné Hanky’’. Původní hostinec, dřevěná chalupa, přestavěná r. 1908 na turstickou chatu,
+				<p>Na hřebeni Gruně, pod Kozlenou ‘’ U Švarné Hanky’’. Původní hostinec, dřevěná chalupa, přestavěná r. 1908 na turstickou chatu,
 				která získala velkou pověst a popularitu. Kozlena, nejvyšší vrch hřebenu Gruně, tj. 887 m.
 				</p>
-				<p class="content-p">
+				<p>
 					 Od 90. let minulěho století se v naší oblasti rozvíjela turistika. Čeští turisté měli svou turistickou stanici na Bučkovicích
 					pod evangelickým kostelem na dolních Starých Hamrech čili Harovicích. Nájmeci hostince – František a Anděla Píchovi – zde
 					vybudovali první češký podhosrký podnik ve Slezsku v roce 1898 a jeho úspěch je podnítil k budování prvního českého horského
@@ -44,7 +49,7 @@
 					1908 ji slavnostně otevřeli pod názvem U Švarné Hanky. Tento název byl pak přenesen na samotnou paní Andělu Píchovou, která
 					záhy na této chaté získala velkou popularitu a byla milována jako ‘’mamulka českých turistů’’ ve Slezských horách.
 				</p>
-				<p class="content-p">
+				<p>
 					 Mimořádný význam Gruně a Švarné Hanky v českém národním hnutí na zlomu století byl ještě podtržen skutečností, že zde často
 					pobýval Petr Bezruč. Petr Bezruč sem přišel poprvé jako poštovní úředník Vladimír Vašek z Místku na podzim roku 1891. Vystoupil
 					na Lysou Horu, prošel jejím úbočím a širokým okolím, seznámil se s přírodou a lidem. To byl jeden z inspiračních zdrojů jeho
@@ -65,7 +70,7 @@
 			</div>
 		</div>
 	</div>
-
+	<script type="text/javascript" src="js/imageslider.js"></script>
 	<script type="text/javascript" src="js/navbar.js"></script>
 </body>
 </html>
