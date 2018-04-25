@@ -4,13 +4,24 @@
 }
 
 
-
 .content {
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	color: #A58961;
 	background-color: #35241A;
 	padding: 7px 7px;
+}
+
+
+
+.col-50 input {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.booking-container {
+	display: flex;
+	justify-content: space-around;
 }
 
 .content h3 {
@@ -67,6 +78,16 @@
 
 #navbar a:hover {
 	background-color: #A56A2E;
+}
+
+#footer	{
+	margin-top: 15px;
+	padding: 5px 5px;
+	font-size: 0.80em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
@@ -127,7 +148,7 @@
 
 
 #right-item {
-	display: flex;
+display: flex;
 	align-self: flex-start;
 }
 
@@ -196,6 +217,8 @@
 }
 
 
+
+
 input, textarea  {
 	font-family: 'Poppins', sans-serif;
 	padding: 5px 5px;
@@ -233,3 +256,4 @@ body {
 img {
 	z-index: -1;
 }
+
