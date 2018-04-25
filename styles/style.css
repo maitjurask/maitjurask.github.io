@@ -90,6 +90,27 @@
 	justify-content: center;
 }
 
+#footer-up {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-left {
+	text-align: left;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+#footerlinebreak {
+	margin: 5px 30px;
+	border: none;
+	height: 1px;
+	color: #A58961;
+	background-color: #A58961;
+}
 
 .navbar {
 	background-color: #35241A;
