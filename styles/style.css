@@ -120,6 +120,7 @@
 .arrow-button {
 	background-color: white;
 	opacity: 0;
+	outline: none;
 	transition: 300ms all;
 }
 
